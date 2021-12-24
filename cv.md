@@ -2,7 +2,7 @@
 ***
 
 > ## Contacts:
-===
+
 * Belarus, Novolukoml
 * GitHub: @KostyaKuk
 * Discord: KostyaKykyshkin(KostyaKuk)
@@ -15,5 +15,19 @@ I'm 23 years old. This year I graduated from BNTU with a specialization in power
 * CSS
 * Slightly JS and GIT
 
-
-
+>## Code example:
+```
+function checkAge(age) {
+  if (age > 18) {
+    return true;
+  }
+  return confirm('GoodBye');
+}
+```
+>## Languages
+* Russian
+* English A2
+ 
+ >## Completed projects:
+ * Markdown & Git [https://KostyaKuk.github.io/rsschool-cv/cv]
+ 
