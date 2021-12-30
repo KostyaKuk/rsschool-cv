@@ -134,5 +134,15 @@
     margin-top: 10px;
     margin-left: auto;
   }
+  .footer{
+    display: flex;
+    background: rgb(237, 239, 241);
+    margin-top: 10px;
+    justify-content: space-evenly;
+  }
+ .footer-year{
+   align-self: center;
+   color: black;
+ }
 
   
