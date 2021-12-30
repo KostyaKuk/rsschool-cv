@@ -1,0 +1,148 @@
+
+  .header-avatar{
+    text-align: center;
+  }
+
+  .my-photo{
+    margin-left: auto;
+    border-radius: 100;
+  }
+
+  .header-main-contacts{
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .header-contact{
+    font-size:30px;
+    list-style: none;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .container{
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .menu-list {
+    font-size: 20px;
+    font-family: cursive,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    min-width: 150px;
+  }
+
+  .menu-item{
+    justify-content: space-evenly;
+    border-radius: 15%;
+    background: powderblue 
+  }
+
+  .main-title{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  
+  }
+  
+  .main-sub{
+    text-align: center;
+    color: white;
+  }
+
+  .section-flex{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+ .section-contacts{
+   background: antiquewhite;
+   height: 160px;
+   width: 200px;
+   border-radius: 15px;
+   text-align: center;
+   font-size: 20px;
+ }
+
+  .section-about-me {
+    background: antiquewhite;
+   height: 160px;
+   width: 1000px;
+   border-radius: 15px;
+   text-align: center;
+   font-size: 20px;
+   margin-left: auto;
+
+  }
+
+  .section-skills{
+    
+    background: antiquewhite;
+    height: 160px;
+    width: 200px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    width: 250px;
+  }
+  
+   .section-code{
+     background: antiquewhite;
+    height: 210px;
+    width: 620px;
+    margin: auto;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+   }
+ 
+  .section-courses{
+    background: antiquewhite;
+    height: 150px;
+    width: 250px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .section-education{
+    background: antiquewhite;
+    height: 150px;
+    width: 250px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  .section-languages{
+    background: antiquewhite;
+    height: 150px;
+    width: 250px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: auto;
+  }
+  .footer{
+    display: flex;
+    background: rgb(237, 239, 241);
+    margin-top: 10px;
+    justify-content: space-evenly;
+  }
+ .footer-year{
+   align-self: center;
+   color: black;
+ }
+
+  
