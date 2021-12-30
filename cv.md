@@ -28,6 +28,6 @@ function checkAge(age) {
 * Russian
 * English A2
  
- >## Completed projects:
+>## Completed projects:
  * Markdown & Git [https://KostyaKuk.github.io/rsschool-cv/cv]
- 
+
