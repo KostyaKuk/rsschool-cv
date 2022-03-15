@@ -29,5 +29,6 @@ function checkAge(age) {
 * English A2
  
 >## Completed projects:
+ * Graduated JS/FE Pre-School 2022
  * Markdown & Git [https://KostyaKuk.github.io/rsschool-cv/cv]
 
