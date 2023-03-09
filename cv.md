@@ -16,3 +16,8 @@ I'm 23 years old. This year I graduated from BNTU with a specialization in power
 * Slightly JS, Typescript
 * GIT
 * Webpack
+
+## Languages
+
+- Russian(native)
+- English(A2)
