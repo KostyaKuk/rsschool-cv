@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KostyaKuk - CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cv">
+        <header>
+            <img src="assets/avatar.jpg" alt="Konstantin's photo" width="120" height="120">
+            <div>
+                <h1>Konstantin</h1>
+                <p class="position">Junior Full-Stack Developer</p>
+                <ul class="contacts">
+                    <li><a href="kanstantsin.kukushkin@gmail.com">kanstantsin.kukushkin@gmail.com</a></li>
+                    <li><a href="https://github.com/KostyaKuk">github.com/KostyaKuk</a></li>
+                    <li>Minsk, Belarus</li>
+                </ul>
+            </div>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#code">Code</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="about">
+                <h2>About</h2>
+                <p>
+                    Full-stack developer focused on the JavaScript ecosystem.
+                    I build web apps with React and Node.js, enjoy clean code,
+                    and keep learning by shipping pet projects.
+                </p>
+            </section>
+
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>TypeScript</li>
+                    <li>React</li>
+                    <li>Next.js</li>
+                    <li>Node.js</li>
+                    <li>NestJS</li>
+                    <li>Tanstack</li>
+                    <li>Redux</li>
+                    <li>Jest</li>
+                    <li>React testing library</li>
+                    <li>Docker</li>
+                    <li>Prisma ORM</li>
+
+                </ul>
+            </section>
+
+            <section id="code">
+                <h2>Code example</h2>
+                <pre><code>const bubbleSort = (arr) =&gt; {
+  const a = [...arr];
+  for (let i = 0; i &lt; a.length - 1; i++) {
+    for (let j = 0; j &lt; a.length - 1 - i; j++) {
+      if (a[j] &gt; a[j + 1]) {
+        [a[j], a[j + 1]] = [a[j + 1], a[j]];
+      }
+    }
+  }
+  return a;
+};
+
+console.log(bubbleSort([5, 3, 8, 1, 9, 2]));
+// [1, 2, 3, 5, 8, 9]</code></pre>
+            </section>
+
+            <section id="experience">
+                <h2>Experience</h2>
+                <div class="item">
+                    <h3>Knowledge Hub — REST API</h3>
+                    <p class="meta">2026 · Node.js course project · <a
+                            href="https://github.com/KostyaKuk/nodejs-2026q1-knowledge-hub">GitHub</a></p>
+                    <p>
+                        Backend service for storing and sharing knowledge, built with NestJS and TypeScript.
+                        Exposes a REST API with OpenAPI/Swagger documentation.
+                    </p>
+                    <ul>
+                        <li>Implemented JWT authentication with access and refresh tokens.</li>
+                        <li>Added role-based access control (RBAC) for users and admins.</li>
+                        <li>Wrote unit and integration tests with Jest, including auth and RBAC suites.</li>
+                        <li>Configured ESLint + Prettier, env config, and VSCode debugging setup.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="education">
+                <h2>Education</h2>
+                <div class="item">
+                    <h3>Full-Stack Development</h3>
+                    <p class="meta">2026 — present</p>
+                </div>
+                <div class="item">
+                    <h3>RS School — Node JS</h3>
+                    <p class="meta">2026</p>
+                </div>
+                <div class="item">
+                    <h3>RS School — JavaScript / Frontend</h3>
+                    <p class="meta">2024</p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <a href="https://github.com/KostyaKuk">GitHub</a>
+            <p>© 2026 Konstantin</p>
+            <a href="https://rs.school/">
+                <img src="assets/rs-logo.jpeg" alt="RS School" width="80">
+            </a>
+        </footer>
+    </div>
+</body>
+
+</html>
